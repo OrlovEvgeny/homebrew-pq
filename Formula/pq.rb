@@ -2,25 +2,25 @@ class Pq < Formula
   desc "The Swiss Army knife of Parquet. Inspect, transform, and operate on Parquet files from your terminal"
   homepage "https://github.com/OrlovEvgeny/pq"
   license "MIT"
-  version "1.0.7"
+  version "1.0.8"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://pq.eorlov.org/dist/v1.0.7/pq-v1.0.7-aarch64-apple-darwin.tar.gz"
-      sha256 "862e6832903792b1c85e836d2bcf23f7047e77615db07b9f1092d2dbe4272437"
+      url "https://pq.eorlov.org/dist/v1.0.8/pq-v1.0.8-aarch64-apple-darwin.tar.gz"
+      sha256 "f4a8342979574b30af3df76eed1c5835603b2b0387d82162706446c3db3765e3"
     else
-      url "https://pq.eorlov.org/dist/v1.0.7/pq-v1.0.7-x86_64-apple-darwin.tar.gz"
-      sha256 "4ab7cf626f87b62a8670c561339e1831f6b5b15ec8303e45bf1c3e49f88ba00f"
+      url "https://pq.eorlov.org/dist/v1.0.8/pq-v1.0.8-x86_64-apple-darwin.tar.gz"
+      sha256 "01ed2fc46384667bbd984b20328ecf665aaf80d1ea3cda1bb45bc98a8ed3c089"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://pq.eorlov.org/dist/v1.0.7/pq-v1.0.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fb926b525337d1d9474e39c73437c884c983a721095f03c8f29944a14e1f21b7"
+      url "https://pq.eorlov.org/dist/v1.0.8/pq-v1.0.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0c98c5ab528eafeef544a482aba8e26953139512f24f4a34ed965bff42538331"
     else
-      url "https://pq.eorlov.org/dist/v1.0.7/pq-v1.0.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "aa64f812e0c1d9ef827ef03e709d5ca70193e0330c22957ad372c60c12fda590"
+      url "https://pq.eorlov.org/dist/v1.0.8/pq-v1.0.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "64781e348587365060973ccd5ee629e2c40e9306954a93d9ff7b2732f549d014"
     end
   end
 
